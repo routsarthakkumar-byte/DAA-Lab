@@ -1,3 +1,15 @@
+/*
+-------------------------------------------------------
+Program    : Question 3
+Title      : Bubble Sort Performance Analysis
+Subject    : Design and Analysis of Algorithms
+Language   : C
+Author     : Sarthak Kumar Rout
+Institute  : IIIT Bhubaneswar
+Semester   : 3rd Semester
+-------------------------------------------------------
+*/
+
 #include <stdio.h>
 
 void optimizedBubbleSort(int arr[], int n)
@@ -77,3 +89,7 @@ int main()
 
     return 0;
 }
+
+/*
+---------------- End of Program ----------------
+*/

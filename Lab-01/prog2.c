@@ -1,3 +1,15 @@
+/*
+-------------------------------------------------------
+Program    : Question 2
+Title      : Fair vs Biased Coin Simulation
+Subject    : Design and Analysis of Algorithms
+Language   : C
+Author     : Sarthak Kumar Rout
+Institute  : IIIT Bhubaneswar
+Semester   : 3rd Semester
+-------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -47,3 +59,7 @@ int main() {
 
     return 0;
 }
+
+/*
+---------------- End of Program ----------------
+*/

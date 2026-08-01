@@ -1,3 +1,15 @@
+/*
+-------------------------------------------------------
+Program    : Question 4
+Title      : Tower of Hanoi
+Subject    : Design and Analysis of Algorithms
+Language   : C
+Author     : Sarthak Kumar Rout
+Institute  : IIIT Bhubaneswar
+Semester   : 3rd Semester
+-------------------------------------------------------
+*/
+
 #include <stdio.h>
 
 int moves = 0;
@@ -32,3 +44,7 @@ int main()
 
     return 0;
 }
+
+/*
+---------------- End of Program ----------------
+*/

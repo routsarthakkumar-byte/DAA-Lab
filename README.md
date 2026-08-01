@@ -11,15 +11,17 @@ Welcome to my **Design and Analysis of Algorithms (DAA) Laboratory Repository**.
 
 This repository contains all my laboratory assignments for the **Design and Analysis of Algorithms (DAA)** course.
 
-Each lab includes:
+## 🎯 Objective
 
-- ✅ Source Code
-- ✅ Program Outputs
-- ✅ Performance Analysis
-- ✅ Graphs
-- ✅ Documentation
+The objective of this laboratory is to understand the design and analysis of algorithms through practical implementation of fundamental algorithmic problems using the C programming language.
 
----
+## 📌 Repository Highlights
+
+- 📂 Well-organized folder structure
+- 💻 C language implementations
+- 📸 Output screenshots for every program
+- 📈 Performance analysis graphs
+- 📖 Proper documentation
 
 ## 👨‍🎓 Student Information
 
@@ -100,7 +102,7 @@ DAA-Lab
 
 # 📌 Author
 
-**YOUR NAME**
+**Sarthak Kumar Rout**
 
 B.Tech | IIIT Bhubaneswar
 
