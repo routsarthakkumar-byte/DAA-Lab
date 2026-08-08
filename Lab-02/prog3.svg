@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600">
+  <rect width="100%" height="100%" fill="#111827"/>
+  <line x1="80" y1="100" x2="820" y2="100" stroke="#374151" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="80" y1="200" x2="820" y2="200" stroke="#374151" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="80" y1="300" x2="820" y2="300" stroke="#374151" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="80" y1="400" x2="820" y2="400" stroke="#374151" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="80" y1="500" x2="820" y2="500" stroke="#374151" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="80" y1="500" x2="830" y2="500" stroke="white" stroke-width="2"/>
+  <line x1="80" y1="500" x2="80" y2="70" stroke="white" stroke-width="2"/>
+  <text x="450" y="40" fill="white" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">K-Way Merge: Method 1 O(N*K^2) vs Method 2 O(N*K log K)</text>
+  <text x="450" y="555" fill="#d1d5db" font-family="sans-serif" font-size="14" text-anchor="middle">Number of Arrays (k)</text>
+  <text x="25" y="290" fill="#d1d5db" font-family="sans-serif" font-size="14" transform="rotate(-90 25,290)" text-anchor="middle">Execution Time (ms)</text>
+  <polyline fill="none" stroke="#f87171" stroke-width="3" points="85,500 103,500 126,500 172,496 265,472 450,390 820,100 "/>
+  <polyline fill="none" stroke="#4ade80" stroke-width="3" points="85,500 103,500 126,499 172,498 265,487 450,482 820,454 "/>
+  <circle cx="85" cy="500" r="5" fill="#f87171"/>
+  <circle cx="85" cy="500" r="5" fill="#4ade80"/>
+  <text x="85" y="525" fill="#9ca3af" font-family="sans-serif" font-size="11" text-anchor="middle">k=4</text>
+  <circle cx="103" cy="500" r="5" fill="#f87171"/>
+  <circle cx="103" cy="500" r="5" fill="#4ade80"/>
+  <text x="103" y="525" fill="#9ca3af" font-family="sans-serif" font-size="11" text-anchor="middle">k=16</text>
+  <circle cx="126" cy="500" r="5" fill="#f87171"/>
+  <circle cx="126" cy="499" r="5" fill="#4ade80"/>
+  <text x="126" y="525" fill="#9ca3af" font-family="sans-serif" font-size="11" text-anchor="middle">k=32</text>
+  <circle cx="172" cy="496" r="5" fill="#f87171"/>
+  <circle cx="172" cy="498" r="5" fill="#4ade80"/>
+  <text x="172" y="525" fill="#9ca3af" font-family="sans-serif" font-size="11" text-anchor="middle">k=64</text>
+  <circle cx="265" cy="472" r="5" fill="#f87171"/>
+  <circle cx="265" cy="487" r="5" fill="#4ade80"/>
+  <text x="265" y="525" fill="#9ca3af" font-family="sans-serif" font-size="11" text-anchor="middle">k=128</text>
+  <circle cx="450" cy="390" r="5" fill="#f87171"/>
+  <circle cx="450" cy="482" r="5" fill="#4ade80"/>
+  <text x="450" y="525" fill="#9ca3af" font-family="sans-serif" font-size="11" text-anchor="middle">k=256</text>
+  <circle cx="820" cy="100" r="5" fill="#f87171"/>
+  <circle cx="820" cy="454" r="5" fill="#4ade80"/>
+  <text x="820" y="525" fill="#9ca3af" font-family="sans-serif" font-size="11" text-anchor="middle">k=512</text>
+  <rect x="100" y="80" width="360" height="75" fill="#1f2937" stroke="#4b5563" rx="6"/>
+  <line x1="115" y1="105" x2="145" y2="105" stroke="#f87171" stroke-width="3"/>
+  <text x="155" y="109" fill="white" font-family="sans-serif" font-size="13">Method 1: Sequential Merge O(n * k^2)</text>
+  <line x1="115" y1="132" x2="145" y2="132" stroke="#4ade80" stroke-width="3"/>
+  <text x="155" y="136" fill="white" font-family="sans-serif" font-size="13">Method 2: Pairwise Merge O(n * k log k)</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650">
+  <rect width="100%" height="100%" fill="#121212"/>
+  <line x1="50" y1="50" x2="50" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="50" x2="800" y2="50" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="100" y1="50" x2="100" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="100" x2="800" y2="100" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="150" y1="50" x2="150" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="150" x2="800" y2="150" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="200" y1="50" x2="200" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="200" x2="800" y2="200" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="250" y1="50" x2="250" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="250" x2="800" y2="250" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="300" y1="50" x2="300" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="300" x2="800" y2="300" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="350" y1="50" x2="350" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="350" x2="800" y2="350" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="400" y1="50" x2="400" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="400" x2="800" y2="400" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="450" y1="50" x2="450" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="450" x2="800" y2="450" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="500" y1="50" x2="500" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="500" x2="800" y2="500" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="550" y1="50" x2="550" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="550" x2="800" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="600" y1="50" x2="600" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="600" x2="800" y2="600" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="650" y1="50" x2="650" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="650" x2="800" y2="650" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="700" y1="50" x2="700" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="700" x2="800" y2="700" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="750" y1="50" x2="750" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="750" x2="800" y2="750" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="800" y1="50" x2="800" y2="550" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="800" x2="800" y2="800" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50" y1="550" x2="820" y2="550" stroke="white" stroke-width="2"/>
+  <line x1="50" y1="550" x2="50" y2="30" stroke="white" stroke-width="2"/>
+  <text x="400" y="595" fill="white" font-family="Arial" font-size="14" font-weight="bold">Number of Elements (N)</text>
+  <text x="20" y="300" fill="white" font-family="Arial" font-size="14" font-weight="bold" transform="rotate(-90 20,300)">Time Taken</text>
+  <text x="50" y="30" fill="white" font-family="Arial" font-size="16" font-weight="bold">Asymptotic Time Complexity Comparison</text>
+  <polyline fill="none" stroke="#00FF66" stroke-width="3" points="50,520 60,520 70,520 80,520 90,520 100,520 110,520 120,520 130,520 140,520 150,520 160,520 170,520 180,520 190,520 200,520 210,520 220,520 230,520 240,520 250,520 260,520 270,520 280,520 290,520 300,520 310,520 320,520 330,520 340,520 350,520 360,520 370,520 380,520 390,520 400,520 410,520 420,520 430,520 440,520 450,520 460,520 470,520 480,520 490,520 500,520 510,520 520,520 530,520 540,520 550,520 560,520 570,520 580,520 590,520 600,520 610,520 620,520 630,520 640,520 650,520 660,520 670,520 680,520 690,520 700,520 710,520 720,520 730,520 740,520 750,520 760,520 770,520 780,520 790,520 800,520 "/>
+  <polyline fill="none" stroke="#00E5FF" stroke-width="3" points="50,550 55,433 60,394 65,370 70,352 75,338 80,327 85,317 90,308 95,301 100,294 105,288 110,283 115,278 120,273 125,268 130,264 135,260 140,257 145,253 150,250 155,247 160,244 165,241 170,238 175,236 180,233 185,231 190,228 195,226 200,224 205,222 210,220 215,218 220,216 225,214 230,212 235,210 240,209 245,207 250,205 255,204 260,202 265,201 270,199 275,198 280,196 285,195 290,193 295,192 300,191 305,190 310,188 315,187 320,186 325,185 330,183 335,182 340,181 345,180 350,179 355,178 360,177 365,176 370,175 375,174 380,173 385,172 390,171 395,170 400,169 405,168 410,167 415,166 420,165 425,165 430,164 435,163 440,162 445,161 450,160 455,160 460,159 465,158 470,157 475,156 480,156 485,155 490,154 495,153 500,153 505,152 510,151 515,151 520,150 525,149 530,149 535,148 540,147 545,147 550,146 555,145 560,145 565,144 570,143 575,143 580,142 585,142 590,141 595,140 600,140 605,139 610,139 615,138 620,137 625,137 630,136 635,136 640,135 645,135 650,134 655,134 660,133 665,132 670,132 675,131 680,131 685,130 690,130 695,129 700,129 705,128 710,128 715,127 720,127 725,126 730,126 735,126 740,125 745,125 750,124 755,124 760,123 765,123 770,122 775,122 780,121 785,121 790,121 795,120 800,120 "/>
+  <polyline fill="none" stroke="#FF3366" stroke-width="3" points="50,550 60,544 70,538 80,532 90,526 100,520 110,514 120,508 130,502 140,496 150,490 160,484 170,478 180,472 190,466 200,460 210,454 220,448 230,442 240,436 250,430 260,424 270,418 280,412 290,406 300,400 310,394 320,388 330,382 340,376 350,370 360,364 370,358 380,352 390,346 400,340 410,334 420,328 430,322 440,316 450,310 460,304 470,298 480,292 490,286 500,280 510,274 520,268 530,262 540,256 550,250 560,244 570,238 580,232 590,226 600,220 610,214 620,208 630,202 640,196 650,190 660,184 670,178 680,172 690,166 700,160 710,154 720,148 730,142 740,136 750,130 760,124 770,118 780,112 790,106 800,100 "/>
+  <text x="810" y="525" fill="#00FF66" font-family="Arial" font-size="14" font-weight="bold">O(1)</text>
+  <text x="810" y="110" fill="#00E5FF" font-family="Arial" font-size="14" font-weight="bold">O(log N)</text>
+  <text x="810" y="80" fill="#FF3366" font-family="Arial" font-size="14" font-weight="bold">O(N)</text>
+  <rect x="80" y="60" width="460" height="160" fill="#1e1e1e" stroke="#444" rx="5"/>
+  <text x="95" y="82" fill="white" font-family="Arial" font-size="13" font-weight="bold">Performance by Data Structure:</text>
+  <text x="95" y="105" fill="#ccc" font-family="Arial" font-size="12"><tspan fill="#FF3366">O(N)</tspan> Search, <tspan fill="#00FF66">O(1)</tspan> Insert : Unsorted Array, DLL (Unsorted)</text>
+  <text x="95" y="127" fill="#ccc" font-family="Arial" font-size="12"><tspan fill="#00E5FF">O(log N)</tspan> Search, <tspan fill="#FF3366">O(N)</tspan> Insert : Sorted Array</text>
+  <text x="95" y="149" fill="#ccc" font-family="Arial" font-size="12"><tspan fill="#FF3366">O(N)</tspan> Search, <tspan fill="#FF3366">O(N)</tspan> Insert : SLL (Sorted), DLL (Sorted)</text>
+  <text x="95" y="171" fill="#ccc" font-family="Arial" font-size="12"><tspan fill="#FF3366">O(N)</tspan> Search, <tspan fill="#00FF66">O(1)</tspan> Delete : DLL (Sorted &amp; Unsorted)</text>
+  <text x="95" y="193" fill="#ccc" font-family="Arial" font-size="12"><tspan fill="#FF3366">O(N)</tspan> Search, <tspan fill="#00FF66">O(1)</tspan> Insert : SLL (Unsorted)</text>
+</svg>
