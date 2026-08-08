@@ -1,4 +1,5 @@
 # 📘 DAA LAB – 02
+
 ## Design and Analysis of Algorithms
 
 > **Experimental Analysis of Data Structures and Sorting/Merging Algorithms**
@@ -11,9 +12,9 @@ This lab consists of three experimental problems focused on **asymptotic analysi
 
 | Program | Problem | Main Concept |
 |---|---|---|
-| `prog1.cpp` | Dictionary Operations | Data Structure vs. Operation Complexity |
-| `prog2.cpp` | 2-Way vs 3-Way Merge Sort | Divide-and-Conquer & Order of Growth |
-| `prog3.cpp` | K-Way Merge | Sequential vs Pairwise Merging |
+| `prog1.c` | Dictionary Operations | Data Structure vs. Operation Complexity |
+| `prog2.c` | 2-Way vs 3-Way Merge Sort | Divide-and-Conquer & Order of Growth |
+| `prog3.c` | K-Way Merge | Sequential vs Pairwise Merging |
 
 ---
 
@@ -83,7 +84,7 @@ Therefore, operations with constant or logarithmic complexity scale much better 
 
 ## 🖥️ Experimental Output
 
-The program also performs interactive testing of the implemented dictionary structures.
+The program performs interactive testing of the implemented dictionary structures.
 
 Example:
 
@@ -185,8 +186,10 @@ T(N) = O(N log N)
 Although the number of recursive divisions changes from **2 to 3**, the asymptotic complexity remains:
 
 ```text
-                    O(N log N)
+O(N log N)
 ```
+
+Both approaches therefore have the same worst-case order of growth.
 
 ---
 
@@ -222,7 +225,7 @@ Therefore:
 3-Way Merge Sort → O(N log N)
 ```
 
-The graph shows that neither approach changes the fundamental asymptotic order of Merge Sort.
+The experimental results support the theoretical conclusion that modifying Merge Sort from two recursive divisions to three does **not** change its asymptotic complexity.
 
 ---
 
@@ -274,12 +277,14 @@ Arrays are merged in pairs:
 
 ```text
 Round 1:
+
 A1 + A2
 A3 + A4
 A5 + A6
 ...
 
 Round 2:
+
 Result1 + Result2
 Result3 + Result4
 ...
@@ -352,15 +357,17 @@ Therefore, **pairwise merging is significantly more scalable for large values of
 
 # 🎯 Key Takeaways
 
-### 1. Data Structure Selection Matters
+## 1. Data Structure Selection Matters
 
 Different data structures provide different performance characteristics.
 
 There is no single structure that is optimal for every dictionary operation.
 
+The choice of data structure should depend on which operations are expected to be performed most frequently.
+
 ---
 
-### 2. 2-Way vs 3-Way Merge Sort
+## 2. 2-Way vs 3-Way Merge Sort
 
 Changing the number of divisions from two to three does **not** change the asymptotic complexity:
 
@@ -372,7 +379,7 @@ Both approaches have the same worst-case order of growth.
 
 ---
 
-### 3. Pairwise K-Way Merging is More Scalable
+## 3. Pairwise K-Way Merging is More Scalable
 
 Sequential merging results in:
 
@@ -419,19 +426,23 @@ The experimental graphs provide empirical evidence supporting the theoretical as
 # 📁 Lab 02 Structure
 
 ```text
-lab2/
+Lab-02/
 │
-├── prog1.cpp
+├── prog1.c
 ├── prog1.svg
 │
-├── prog2.cpp
-├── merge_sort_complexity.svg
+├── prog2.c
+├── prog2.svg
 │
-├── prog3.cpp
-├── k_merge_complexity.svg
+├── prog3.c
+├── prog3.svg
+│
+├── merge_benchmark.dat
 │
 └── README.md
 ```
+
+> The `.exe` files used during local execution are excluded from the repository using `.gitignore`.
 
 ---
 
@@ -457,5 +468,3 @@ The results show that:
 **Course:** Design and Analysis of Algorithms (DAA)  
 **Lab:** 02  
 **Branch:** Computer Science Engineering
-
----
