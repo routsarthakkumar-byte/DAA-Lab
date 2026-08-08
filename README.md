@@ -4,6 +4,7 @@
 ![Compiler](https://img.shields.io/badge/Compiler-GCC-green)
 ![IDE](https://img.shields.io/badge/IDE-VS_Code-blue)
 ![Status](https://img.shields.io/badge/Lab_01-Completed-brightgreen)
+![Status](https://img.shields.io/badge/Lab_02-Completed-brightgreen)
 
 Welcome to my **Design and Analysis of Algorithms (DAA) Laboratory Repository**.
 
@@ -39,12 +40,12 @@ The objective of this laboratory is to understand the design and analysis of alg
 
 # 📂 Repository Structure
 
-```
-DAA-Lab
+```text
+DAA-Lab/
 │
 ├── README.md
 │
-├── Lab-01
+├── Lab-01/
 │   ├── README.md
 │   ├── q1.c
 │   ├── q2.c
@@ -52,18 +53,27 @@ DAA-Lab
 │   ├── q4.c
 │   ├── q5.c
 │   ├── q6.c
-│   ├── Outputs
-│   └── Graphs
+│   ├── Outputs/
+│   └── Graphs/
 │
-├── Lab-02
-├── Lab-03
-├── Lab-04
-├── Lab-05
-├── Lab-06
-├── Lab-07
-├── Lab-08
-├── Lab-09
-└── Lab-10
+├── Lab-02/
+│   ├── README.md
+│   ├── prog1.c
+│   ├── prog1.svg
+│   ├── prog2.c
+│   ├── prog2.svg
+│   ├── prog3.c
+│   ├── prog3.svg
+│   └── merge_benchmark.dat
+│
+├── Lab-03/
+├── Lab-04/
+├── Lab-05/
+├── Lab-06/
+├── Lab-07/
+├── Lab-08/
+├── Lab-09/
+└── Lab-10/
 ```
 
 ---
@@ -73,7 +83,7 @@ DAA-Lab
 | Lab | Status |
 |------|--------|
 | Lab-01 | ✅ Completed |
-| Lab-02 | ⏳ Pending |
+| Lab-02 | ✅ Completed |
 | Lab-03 | ⏳ Pending |
 | Lab-04 | ⏳ Pending |
 | Lab-05 | ⏳ Pending |
@@ -98,6 +108,26 @@ DAA-Lab
 - Partition Point
 - Element Uniqueness
 
+# 📖 Topics Covered (Lab-012)
+
+- Dictionary ADT
+- Arrays
+- Singly Linked Lists
+- Doubly Linked Lists
+- Search Operations
+- Insert and Delete Operations
+- Minimum and Maximum
+- Predecessor and Successor
+- Asymptotic Complexity
+- 2-Way Merge Sort
+- 3-Way Merge Sort
+- K-Way Merge
+- Sequential Merging
+- Pairwise Merging
+- Benchmarking
+- Experimental Analysis
+- Order of Growth
+- Graphical Performance Analysis
 ---
 
 # 📌 Author
