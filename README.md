@@ -67,6 +67,17 @@ DAA-Lab/
 │   └── merge_benchmark.dat
 │
 ├── Lab-03/
+├── README.md
+├── prog1.c                  ← Q1 · Binary vs Ternary Search
+├── prog2.c                  ← Q2 · Defective Coin
+├── prog3.c                  ← Q3 · Max and Min (D&C)
+├── prog4.c                  ← Q4 · Strassen Matrix Multiplication
+├── prog5.c                  ← Q5 · Special-Pattern Matrix Multiplication
+├── prog6.c                  ← Q6 · Selection Sort + Loop Invariant
+├── a.exe
+└── Outputs/
+    ├── image.png
+    └── Screenshot *.png 
 ├── Lab-04/
 ├── Lab-05/
 ├── Lab-06/
@@ -84,7 +95,7 @@ DAA-Lab/
 |------|--------|
 | Lab-01 | ✅ Completed |
 | Lab-02 | ✅ Completed |
-| Lab-03 | ⏳ Pending |
+| Lab-03 | ✅ Completed |
 | Lab-04 | ⏳ Pending |
 | Lab-05 | ⏳ Pending |
 | Lab-06 | ⏳ Pending |
@@ -108,7 +119,7 @@ DAA-Lab/
 - Partition Point
 - Element Uniqueness
 
-# 📖 Topics Covered (Lab-012)
+# 📖 Topics Covered (Lab-02)
 
 - Dictionary ADT
 - Arrays
@@ -128,6 +139,14 @@ DAA-Lab/
 - Experimental Analysis
 - Order of Growth
 - Graphical Performance Analysis
+
+# 📖 Topics Covered (Lab-03)
+- Binary vs ternary search
+- Defective coin
+- Max and Min using D&C
+- Strassen Multiplication
+- Special-Pattern Matrices
+- Loop Invariant in Sorting
 ---
 
 # 📌 Author
