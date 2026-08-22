@@ -10,8 +10,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-2ECC71?style=for-the-badge&logo=checkmarx&logoColor=white)
 ![Institute](https://img.shields.io/badge/IIIT-Bhubaneswar-9146FF?style=for-the-badge)
 
-<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="500">
-
 </div>
 
 ---
@@ -29,18 +27,14 @@
 
 ---
 
-<div align="center">
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="380">
-</div>
-
 ## 🧠 Core Idea Behind This Lab
 
 > Every problem in this lab looks intimidating in its "naive" form (`O(n²)`, `O(n³)`, or worse) — but a **single sort** at the start collapses the search space, letting the rest of the algorithm run in **one linear or logarithmic pass**.
 
 ```mermaid
 flowchart LR
-    A[Raw / Unordered Input] -->|Sort O(n log n)| B[Ordered Structure]
-    B -->|Linear Scan / Two Pointers| C[Efficient Answer]
+    A["Raw / Unordered Input"] -->|"Sort: O(n log n)"| B["Ordered Structure"]
+    B -->|"Linear Scan / Two Pointers"| C["Efficient Answer"]
     style A fill:#ff6b6b,color:#fff
     style B fill:#feca57,color:#000
     style C fill:#1dd1a1,color:#fff
@@ -109,7 +103,7 @@ prog1.exe      # Windows
 ---
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3c72,100:2a5298&height=4&width=100%25" width="100%"/>
 </div>
 
 ## 1. 🎨 Sort by Colour (Stable 3-Way Partition)
@@ -120,13 +114,13 @@ prog1.exe      # Windows
 
 ```mermaid
 flowchart TD
-    S([Sorted Input by Number]) --> R[Red Bucket]
-    S --> Bl[Blue Bucket]
-    S --> Y[Yellow Bucket]
-    R --> C[Concatenate: Red + Blue + Yellow]
+    S(["Sorted Input by Number"]) --> R["Red Bucket"]
+    S --> Bl["Blue Bucket"]
+    S --> Y["Yellow Bucket"]
+    R --> C["Concatenate: Red + Blue + Yellow"]
     Bl --> C
     Y --> C
-    C --> O([Final Colour-Grouped, Stable Output])
+    C --> O(["Final Colour-Grouped, Stable Output"])
 ```
 
 | Complexity | Value |
@@ -145,13 +139,13 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    subgraph Sorted S1 ascending
-    P1(low →)
+    subgraph SG1["Sorted S1 (ascending)"]
+    P1(["low →"])
     end
-    subgraph Sorted S2 descending
-    P2(← high)
+    subgraph SG2["Sorted S2 (descending)"]
+    P2(["← high"])
     end
-    P1 -.sum vs x.-> P2
+    P1 -. "sum vs x" .-> P2
 ```
 
 | Case | Pointer Action |
@@ -172,10 +166,10 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    K[k-Sum Problem] --> K1[Fix one element]
+    K["k-Sum Problem"] --> K1["Fix one element"]
     K1 --> K2["(k-1)-Sum on remaining"]
     K2 --> K3["... recurse down ..."]
-    K3 --> T[2-Sum via Two Pointers O(n)]
+    K3 --> T["2-Sum via Two Pointers: O(n)"]
 ```
 
 **Recurrence intuition:**
@@ -190,7 +184,7 @@ flowchart TD
 ---
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="500">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2a5298,100:1e3c72&height=4&width=100%25" width="100%"/>
 </div>
 
 ## 4. 🎉 Peak Simultaneous Attendance
@@ -206,12 +200,12 @@ flowchart TD
 gantt
     dateFormat  X
     axisFormat %s
-    title Timeline Sweep — Entries (+1) vs Exits (-1)
+    title Timeline Sweep - Entries vs Exits
     section Guests
-    Guest A (in→out) :a1, 1, 6
-    Guest B (in→out) :a2, 2, 8
-    Guest C (in→out) :a3, 4, 10
-    Guest D (in→out) :a4, 5, 7
+    Guest A :a1, 1, 6
+    Guest B :a2, 2, 8
+    Guest C :a3, 4, 10
+    Guest D :a4, 5, 7
 ```
 
 | Step | Operation | Cost |
@@ -233,9 +227,9 @@ gantt
 ```mermaid
 flowchart LR
     A["(1,3)"] --> B["(2,6)"]
-    B -->|Overlap: merge| M1["(1,6)"]
+    B -->|"Overlap: merge"| M1["(1,6)"]
     C["(7,18)"] --> D["(8,10)"]
-    D -->|Contained: merge| M2["(7,18)"]
+    D -->|"Contained: merge"| M2["(7,18)"]
     M1 --- M2
 ```
 
@@ -256,11 +250,11 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    E1[Sort all l/r endpoints] --> E2[Sweep left to right]
-    E2 --> E3{Event type?}
-    E3 -->|Start +1| E4[count++]
-    E3 -->|End -1| E5[count--]
-    E4 --> E6[Track max count & point]
+    E1["Sort all l/r endpoints"] --> E2["Sweep left to right"]
+    E2 --> E3{"Event type?"}
+    E3 -->|"Start (+1)"| E4["count = count + 1"]
+    E3 -->|"End (-1)"| E5["count = count - 1"]
+    E4 --> E6["Track max count & point"]
     E5 --> E6
 ```
 

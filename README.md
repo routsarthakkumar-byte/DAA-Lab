@@ -79,6 +79,22 @@ DAA-Lab/
     ├── image.png
     └── Screenshot *.png 
 ├── Lab-04/
+│
+├── 📁 output/
+│   ├── 🖼️ op1.png       
+│   ├── 🖼️ op2.png       
+│   ├── 🖼️ op3.png        
+│   ├── 🖼️ op4.png        
+│   ├── 🖼️ op5.png        
+│   └── 🖼️ op6.png        
+│
+├── 🇨 prog1.c            
+├── 🇨 prog2.c             
+├── 🇨 prog3.c             
+├── 🇨 prog4.c             
+├── 🇨 prog5.c             
+├── 🇨 prog6.c             
+└── 📘 README.md           
 ├── Lab-05/
 ├── Lab-06/
 ├── Lab-07/
@@ -96,7 +112,7 @@ DAA-Lab/
 | Lab-01 | ✅ Completed |
 | Lab-02 | ✅ Completed |
 | Lab-03 | ✅ Completed |
-| Lab-04 | ⏳ Pending |
+| Lab-04 | ✅ Completed |
 | Lab-05 | ⏳ Pending |
 | Lab-06 | ⏳ Pending |
 | Lab-07 | ⏳ Pending |
@@ -147,6 +163,14 @@ DAA-Lab/
 - Strassen Multiplication
 - Special-Pattern Matrices
 - Loop Invariant in Sorting
+
+# 📖 Topics Covered (Lab-04)
+- Sort by Colour 
+- Pair Sum Across Two Sets
+- Generalised k-Sum
+- Peak Simultaneous Attendance
+- Merge Overlapping Intervals
+- Maximum Point Overlap in Intervals
 ---
 
 # 📌 Author
