@@ -96,6 +96,17 @@ DAA-Lab/
 ├── 🇨 prog6.c             
 └── 📘 README.md           
 ├── Lab-05/
+│
+├── 📁 Outputs/
+│   ├── 🖼️ prog1-op.png   
+│   ├── 🖼️ prog2-op.png   
+│   ├── 🖼️ prog3-op.png   
+│   └── 🖼️ prog4-op.png  
+│
+├── 🇨 prog1.c           
+├── 🇨 prog2.c            
+├── 🇨 prog3.c             
+├── 🇨 prog4.c    
 ├── Lab-06/
 ├── Lab-07/
 ├── Lab-08/
@@ -113,7 +124,7 @@ DAA-Lab/
 | Lab-02 | ✅ Completed |
 | Lab-03 | ✅ Completed |
 | Lab-04 | ✅ Completed |
-| Lab-05 | ⏳ Pending |
+| Lab-05 | ✅ Completed |
 | Lab-06 | ⏳ Pending |
 | Lab-07 | ⏳ Pending |
 | Lab-08 | ⏳ Pending |
@@ -171,6 +182,12 @@ DAA-Lab/
 - Peak Simultaneous Attendance
 - Merge Overlapping Intervals
 - Maximum Point Overlap in Intervals
+
+# 📖 Topics Covered (Lab-05)
+- Median of N Numbers Without Sorting
+- Kth Smallest Element without Sorting
+- Quick Sort on N Numbers
+- Heap-Sort N Numbers 
 ---
 
 # 📌 Author
