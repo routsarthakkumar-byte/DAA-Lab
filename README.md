@@ -113,12 +113,20 @@ DAA-Lab/
 │   ├── 🖼️ op1.png       
 │   ├── 🖼️ op2.png       
 │   ├── 🖼️ op3.png        
-│   ├── 🖼️ op4.png       
+│   ├── 🖼️ op4.png
+|   |── 🖼️ op5.png       
+│   ├── 🖼️ op6.png       
+│   ├── 🖼️ op7.png        
+│   ├── 🖼️ op8.png         
 │
 ├── prog1.c            
 ├── prog2.c             
 ├── prog3.c             
-├── prog4.c             
+├── prog4.c
+├── prog5.c            
+├── prog6.c             
+├── prog7.c             
+├── prog8.c             
 └── 📘 README.md  
 ├── Lab-07/
 ├── Lab-08/
@@ -205,7 +213,11 @@ DAA-Lab/
 - 1D Array Operations and Their Complexities
 - 2D Square Matrix Operations and Their Complexities
 - Convolution via Divide & Conquer
-- Sorting via Reversal Procedure 
+- Sorting via Reversal Procedure
+- every cell or prefix pair matters
+- 0/1 Knapsack
+- matrix multiplication, determinant, Matrix Chain
+- reversal-cost sort 
 ---
 
 # 📌 Author
