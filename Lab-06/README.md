@@ -37,10 +37,11 @@ flowchart LR
     B -->|"Once, no comparisons"| C["O(n) - Linear"]
     B -->|"Repeated halving"| D["O(n log n) - Divide and Conquer"]
     B -->|"Nested over all pairs"| E["O(n^2) / O(n^3) - Polynomial"]
-    style A fill:#11998e,color:#fff
-    style C fill:#1dd1a1,color:#fff
-    style D fill:#feca57,color:#000
-    style E fill:#ff6b6b,color:#fff
+    style A fill:#4D96FF,color:#fff,stroke:#2c5fb8,stroke-width:2px
+    style B fill:#9D4EDD,color:#fff,stroke:#6a2ca0,stroke-width:2px
+    style C fill:#06D6A0,color:#000,stroke:#049270,stroke-width:2px
+    style D fill:#FFD93D,color:#000,stroke:#d9ad00,stroke-width:2px
+    style E fill:#FF6B6B,color:#fff,stroke:#c94242,stroke-width:2px
 ```
 
 ---
@@ -79,6 +80,7 @@ flowchart LR
 <sub>* Two valid strategies exist for iv, vi, vii — a sort-based `O(n log n)` approach (works for any comparable type) or a hash/selection-based `O(n)` approach (needs extra space or a boundable value range). Both are worth showing in your program's complexity discussion.</sub>
 
 ```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#FF6B6B, #FFD93D, #06D6A0, #4D96FF, #9D4EDD, #FF9F1C, #00C2CB, #F72585, #7BE0AD"}}}}%%
 xychart-beta
     title "Q1: Worst-Case Growth Across the 9 Array Operations"
     x-axis ["Max", "Top-2", "Mean", "Median", "Std-Dev", "Mode", "Dedup", "Reverse", "Partition"]
@@ -105,6 +107,7 @@ xychart-beta
 | vii | Eigenvalue / eigenvector | `O(n³)` per iteration | No closed form beyond `n = 4`; iterative methods (e.g. QR algorithm) repeat `O(n³)` steps until convergence |
 
 ```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#4D96FF, #F72585, #06D6A0, #FFD93D, #9D4EDD, #00C2CB, #FF6B6B"}}}}%%
 xychart-beta
     title "Q2: Worst-Case Growth Across the 7 Matrix Operations"
     x-axis ["Addition", "Multiply", "Zero-Check", "Symmetric", "Determinant", "Transpose", "Eigen"]
@@ -134,11 +137,19 @@ flowchart TD
     D --> E["Pointwise multiply transformed A and B - O(n)"]
     E --> F["Inverse transform back to coefficient form - O(n log n)"]
     F --> G["Convolution result C"]
+    style A fill:#4D96FF,color:#fff,stroke:#2c5fb8,stroke-width:2px
+    style B fill:#9D4EDD,color:#fff,stroke:#6a2ca0,stroke-width:2px
+    style C fill:#00C2CB,color:#000,stroke:#008c93,stroke-width:2px
+    style D fill:#FFD93D,color:#000,stroke:#d9ad00,stroke-width:2px
+    style E fill:#FF9F1C,color:#000,stroke:#c97900,stroke-width:2px
+    style F fill:#F72585,color:#fff,stroke:#b81b64,stroke-width:2px
+    style G fill:#06D6A0,color:#000,stroke:#049270,stroke-width:2px
 ```
 
 **Recurrence:** `T(n) = 2·T(n/2) + O(n)` → by the Master Theorem, `T(n) = O(n log n)`.
 
 ```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#FF6B6B, #06D6A0"}}}}%%
 xychart-beta
     title "Q3: Direct Convolution vs Divide-and-Conquer"
     x-axis ["n=100", "n=1000", "n=10000", "n=100000"]
@@ -177,6 +188,13 @@ flowchart TD
     E -->|Yes| F["i = i + 1"]
     F --> B
     E -->|No| G["Array fully sorted"]
+    style A fill:#4D96FF,color:#fff,stroke:#2c5fb8,stroke-width:2px
+    style B fill:#9D4EDD,color:#fff,stroke:#6a2ca0,stroke-width:2px
+    style C fill:#FF9F1C,color:#000,stroke:#c97900,stroke-width:2px
+    style D fill:#00C2CB,color:#000,stroke:#008c93,stroke-width:2px
+    style E fill:#F72585,color:#fff,stroke:#b81b64,stroke-width:2px
+    style F fill:#FFD93D,color:#000,stroke:#d9ad00,stroke-width:2px
+    style G fill:#06D6A0,color:#000,stroke:#049270,stroke-width:2px
 ```
 
 | Metric | Bound |
@@ -197,6 +215,11 @@ flowchart TD
     B --> D["Merge via block reversal - O(n log n) cost"]
     C --> D
     D --> E["Fully sorted permutation"]
+    style A fill:#4D96FF,color:#fff,stroke:#2c5fb8,stroke-width:2px
+    style B fill:#9D4EDD,color:#fff,stroke:#6a2ca0,stroke-width:2px
+    style C fill:#FF9F1C,color:#000,stroke:#c97900,stroke-width:2px
+    style D fill:#F72585,color:#fff,stroke:#b81b64,stroke-width:2px
+    style E fill:#06D6A0,color:#000,stroke:#049270,stroke-width:2px
 ```
 
 **Recurrence:** `T(n) = 2·T(n/2) + O(n log n)` — the extra `log n` factor in the merge step (each merge itself needs a logarithmic number of reversal passes to interleave blocks) gives, by the Master Theorem:
@@ -206,6 +229,7 @@ T(n) = O(n log² n)
 ```
 
 ```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#FF6B6B, #06D6A0"}}}}%%
 xychart-beta
     title "Q4: Reversal-Sort Cost - Naive vs Divide-and-Conquer Merge"
     x-axis ["n=100", "n=1000", "n=10000", "n=100000"]
@@ -227,6 +251,7 @@ xychart-beta
 ## 📊 Complexity Landscape — All Four Problems
 
 ```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#06D6A0, #FF6B6B, #FFD93D, #4D96FF"}}}}%%
 xychart-beta
     title "Growth Order Snapshot Across the Lab"
     x-axis ["Q1 Array Ops", "Q2 Matrix Ops", "Q3 Convolution", "Q4 Reversal Sort"]

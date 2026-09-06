@@ -137,7 +137,7 @@ DAA-Lab/
 | Lab-03 | ✅ Completed |
 | Lab-04 | ✅ Completed |
 | Lab-05 | ✅ Completed |
-| Lab-06 | ⏳ Pending |
+| Lab-06 | ✅ Completed |
 | Lab-07 | ⏳ Pending |
 | Lab-08 | ⏳ Pending |
 | Lab-09 | ⏳ Pending |
@@ -200,6 +200,12 @@ DAA-Lab/
 - Kth Smallest Element without Sorting
 - Quick Sort on N Numbers
 - Heap-Sort N Numbers 
+
+# 📖 Topics Covered (Lab-06)
+- 1D Array Operations and Their Complexities
+- 2D Square Matrix Operations and Their Complexities
+- Convolution via Divide & Conquer
+- Sorting via Reversal Procedure 
 ---
 
 # 📌 Author
