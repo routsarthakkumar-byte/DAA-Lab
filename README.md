@@ -107,7 +107,19 @@ DAA-Lab/
 ├── 🇨 prog2.c            
 ├── 🇨 prog3.c             
 ├── 🇨 prog4.c    
-├── Lab-06/
+├── ├── Lab-06/
+│
+├── 📁 output/
+│   ├── 🖼️ op1.png       
+│   ├── 🖼️ op2.png       
+│   ├── 🖼️ op3.png        
+│   ├── 🖼️ op4.png       
+│
+├── prog1.c            
+├── prog2.c             
+├── prog3.c             
+├── prog4.c             
+└── 📘 README.md  
 ├── Lab-07/
 ├── Lab-08/
 ├── Lab-09/
