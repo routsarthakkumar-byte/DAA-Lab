@@ -128,7 +128,24 @@ DAA-Lab/
 ├── prog7.c             
 ├── prog8.c             
 └── 📘 README.md  
-├── Lab-07/
+Lab-07/
+│
+├── 📁 outputs/
+│   ├── 🖼️ output-01.png   # Output — Invert the Coin-Triangle
+│   ├── 🖼️ output-02.png   # Output — Super Egg Testing Experiment
+│   ├── 🖼️ output-03.png   # Output — Reve's Puzzle (4-Peg Hanoi)
+│   ├── 🖼️ output-04.png   # Output — Security Switches
+│   ├── 🖼️ output-05.png   # Output — Hitting a Moving Target
+│   ├── 🖼️ output-06.png   # Output — The Best Time to Be Alive
+│   └── 🖼️ output-07.png   # Output — Matrix Chain Multiplication
+│
+├── 🇨 prog1.c             # Q1 · Invert the Coin-Triangle    → Θ(n²) moves
+├── 🇨 prog2.c             # Q2 · Super Egg Testing           → O(E·F)
+├── 🇨 prog3.c             # Q3 · Reve's Puzzle (4-Peg Hanoi) → Θ(2^√(2n)) moves
+├── 🇨 prog4.c             # Q4 · Security Switches           → Θ(2ⁿ) moves
+├── 🇨 prog5.c             # Q5 · Hitting a Moving Target     → O(n) shots
+├── 🇨 prog6.c             # Q6 · The Best Time to Be Alive   → O(n log n)
+├── 🇨 prog7.c             # Q7 · Matrix Chain Multiplication → O(n³)
 ├── Lab-08/
 ├── Lab-09/
 └── Lab-10/
@@ -146,7 +163,7 @@ DAA-Lab/
 | Lab-04 | ✅ Completed |
 | Lab-05 | ✅ Completed |
 | Lab-06 | ✅ Completed |
-| Lab-07 | ⏳ Pending |
+| Lab-07 | ✅ Completed |
 | Lab-08 | ⏳ Pending |
 | Lab-09 | ⏳ Pending |
 | Lab-10 | ⏳ Pending |
@@ -218,6 +235,15 @@ DAA-Lab/
 - 0/1 Knapsack
 - matrix multiplication, determinant, Matrix Chain
 - reversal-cost sort 
+
+# 📖 Topics Covered (Lab-07)
+- Invert the Coin-Triangle
+- Super Egg Testing 
+- Reve's Puzzle (4-Peg Hanoi)
+- Security Switches 
+- Hitting a Moving Target 
+- The Best Time to Be Alive
+- Matrix Chain Multiplication
 ---
 
 # 📌 Author
