@@ -147,6 +147,28 @@ Lab-07/
 ├── 🇨 prog6.c             # Q6 · The Best Time to Be Alive   → O(n log n)
 ├── 🇨 prog7.c             # Q7 · Matrix Chain Multiplication → O(n³)
 ├── Lab-08/
+│
+├── 📁 Outputs/
+│   ├── 🖼️ prog1.png   # Output — Minimum Coin Change
+│   ├── 🖼️ prog2.png   # Output — Coin Change: Total Ways
+│   ├── 🖼️ prog3.png   # Output — Longest Common Subsequence
+│   ├── 🖼️ prog4.png   # Output — Longest Increasing Subsequence
+│   ├── 🖼️ prog5.png   # Output — Maximum Sum Increasing Subsequence
+│   ├── 🖼️ prog6.png   # Output — Edit Distance with Traceback
+│   ├── 🖼️ prog7.png   # Output — Rod Cutting with Reconstruction
+│   ├── 🖼️ prog8.png   # Output — Optimal Binary Search Trees
+│   └── 🖼️ prog9.png   # Output — Collatz Conjecture
+│
+├── 🇨 prog1.c           # Q1 · Minimum Coin Change            → O(n·V)
+├── 🇨 prog2.c           # Q2 · Coin Change: Total Ways        → O(n·V)
+├── 🇨 prog3.c           # Q3 · Longest Common Subsequence     → O(m·n)
+├── 🇨 prog4.c           # Q4 · Longest Increasing Subsequence → O(n²) / O(n log n)
+├── 🇨 prog5.c           # Q5 · Max Sum Increasing Subsequence → O(n²)
+├── 🇨 prog6.c           # Q6 · Edit Distance with Traceback   → O(m·n)
+├── 🇨 prog7.c           # Q7 · Rod Cutting with Reconstruction→ O(n²)
+├── 🇨 prog8.c           # Q8 · Optimal Binary Search Trees    → O(n³)
+├── 🇨 prog9.c           # Q9 · Collatz Conjecture              → Unbounded / unproven
+└── 📘 README.md         # You are here
 ├── Lab-09/
 └── Lab-10/
 ```
@@ -164,7 +186,7 @@ Lab-07/
 | Lab-05 | ✅ Completed |
 | Lab-06 | ✅ Completed |
 | Lab-07 | ✅ Completed |
-| Lab-08 | ⏳ Pending |
+| Lab-08 | ✅ Completed |
 | Lab-09 | ⏳ Pending |
 | Lab-10 | ⏳ Pending |
 
@@ -244,6 +266,16 @@ Lab-07/
 - Hitting a Moving Target 
 - The Best Time to Be Alive
 - Matrix Chain Multiplication
+
+# 📖 Topics Covered (Lab-08)
+- Minimum Coin Change
+- Coin Change — Ways
+- LCS
+- LIS
+- Max Sum IS
+- Edit Distance
+- Rod Cutting
+- OBST
 ---
 
 # 📌 Author
