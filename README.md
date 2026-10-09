@@ -187,7 +187,7 @@ Lab-07/
 | Lab-06 | ✅ Completed |
 | Lab-07 | ✅ Completed |
 | Lab-08 | ✅ Completed |
-| Lab-09 | ⏳ Pending |
+| Lab-09 | ✅ Completed |
 | Lab-10 | ⏳ Pending |
 
 # 💻 Programming Language
@@ -276,6 +276,19 @@ Lab-07/
 - Edit Distance
 - Rod Cutting
 - OBST
+
+# 📖 Topics Covered (Lab-09)
+
+- Fractional Knapsack with Deterioration
+- Huffman Coding
+- Minimum Refuelling Stops
+- Connect Sticks
+- Candy Distribution
+- Reorganise String, K Apart
+- Minimise Deviation
+- Minimum Meeting Rooms
+- Hu-Tucker Simulation
+- Greedy Superstring Conjecture
 ---
 
 # 📌 Author
