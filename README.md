@@ -169,8 +169,35 @@ Lab-07/
 ├── 🇨 prog8.c           # Q8 · Optimal Binary Search Trees    → O(n³)
 ├── 🇨 prog9.c           # Q9 · Collatz Conjecture              → Unbounded / unproven
 └── 📘 README.md         # You are here
-├── Lab-09/
-└── Lab-10/
+Lab-09/
+│
+├── 📁 outputs/
+│   └── 🖼️ Screenshot 20….png   # Output screenshots, one per program
+│
+├── 🇨 prog1.c              # Q1  · Fractional Knapsack with Deterioration
+├── 🇨 prog2.c              # Q2  · Huffman Coding (canonical)          → O(n log n)
+├── 🇨 prog3.c              # Q3  · Minimum Refuelling Stops            → O(n log n)
+├── 🇨 prog4.c              # Q4  · Connect Sticks                      → O(n log n)
+├── 🇨 prog5.c              # Q5  · Candy Distribution                  → O(n)
+├── 🇨 prog6.c              # Q6  · Reorganise String, K Apart          → O(N log A)
+├── 🇨 prog7.c              # Q7  · Minimise Deviation                  → O(n log n · log M)
+├── 🇨 prog8.c              # Q8  · Minimum Meeting Rooms               → O(n log n)
+├── 🇨 prog9.c              # Q9  · Hu-Tucker Simulation
+├── 🇨 prog10.c             # Q10 · Greedy Superstring
+└── 📘 README.md            # You are here
+📂 Lab-10
+├── 📂 Outputs
+│   ├── 🖼️ Output1.png        # Execution output for Prog1.c
+│   ├── 🖼️ Output2.png        # Execution output for Prog2.c
+│   ├── 🖼️ Output3.png        # Execution output for Prog3.c
+│   ├── 🖼️ Output4.png        # Execution output for Prog4.c
+│   └── 🖼️ Output5.png        # Execution output for Prog5.c
+├── 📜 Prog1.c                # Online Graph-Bipartiteness Testing
+├── 📜 Prog2.c                # Dynamic Connected Components in a Grid (Islands II)
+├── 📜 Prog3.c                # Maximum Weight Component with Size Constraints
+├── 📜 Prog4.c                # Reverse Time-Step DSU Application
+├── 📜 Prog5.c                # Lexicographically Smallest Permutation via Swaps
+└── 📘 README.md              # Project Documentation & Complexity Analysis
 ```
 
 ---
@@ -188,7 +215,7 @@ Lab-07/
 | Lab-07 | ✅ Completed |
 | Lab-08 | ✅ Completed |
 | Lab-09 | ✅ Completed |
-| Lab-10 | ⏳ Pending |
+| Lab-10 | ✅ Completed |
 
 # 💻 Programming Language
 
@@ -289,6 +316,14 @@ Lab-07/
 - Minimum Meeting Rooms
 - Hu-Tucker Simulation
 - Greedy Superstring Conjecture
+
+# 📖 Topics Covered (Lab-10)
+
+- Online Bipartite Stream
+- Dynamic Islands II
+- Size-Bounded Weight
+- Reverse Time Offline DSU
+- Minimal Swap Sorting
 ---
 
 # 📌 Author
