@@ -198,6 +198,17 @@ Lab-09/
 ├── 📜 Prog4.c                # Reverse Time-Step DSU Application
 ├── 📜 Prog5.c                # Lexicographically Smallest Permutation via Swaps
 └── 📘 README.md              # Project Documentation & Complexity Analysis
+Lab-11/
+│
+├── 📁 Outputs/
+│   ├── 🖼️ Output1.png   # Output — Parity-Constrained Shortest Path (0-1 BFS)
+│   ├── 🖼️ Output2.png   # Output — Radius-Constrained Voronoi Partitioning
+│   └── 🖼️ Output3.png   # Output — Word Transformation (Bidirectional BFS)
+│
+├── 🇨 Prog1.c           # Q1 · 0-1 BFS with parity states     → O(V + E)
+├── 🇨 Prog2.c           # Q2 · Multi-Source BFS                → O(V + E)
+├── 🇨 Prog3.c           # Q3 · Bidirectional BFS               → O(N · 26 · L²)
+└── 📘 README.md         # You are here
 ```
 
 ---
@@ -216,6 +227,7 @@ Lab-09/
 | Lab-08 | ✅ Completed |
 | Lab-09 | ✅ Completed |
 | Lab-10 | ✅ Completed |
+| Lab-11 | ✅ Completed |
 
 # 💻 Programming Language
 
@@ -324,6 +336,12 @@ Lab-09/
 - Size-Bounded Weight
 - Reverse Time Offline DSU
 - Minimal Swap Sorting
+
+# 📖 Topics Covered (Lab-11)
+
+- Shortest Path on Parity-Constrained Graphs via 0-1 BFS
+- Multi-Source BFS for Radius-Constrained Voronoi Cell Partitioning
+- Bidirectional BFS for Shortest Transformation Sequence
 ---
 
 # 📌 Author
